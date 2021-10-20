@@ -16,6 +16,7 @@ function setup_radio () {
     radio.setTransmitSerialNumber(true)
 }
 setup_radio()
+basic.showString("P")
 basic.forever(function () {
     main_radio_broadcast()
 })

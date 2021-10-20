@@ -1,9 +1,10 @@
 {
-    "name": "2020-10-25_pumpkin_beacon",
+    "name": "pumpkin_beacon",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
         "main.ts",
@@ -13,6 +14,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
